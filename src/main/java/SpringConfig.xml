@@ -1,0 +1,23 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+<bean id="filepathBean" class="io.zzzz.owo.FilePath">
+	<property name="configFilePath" value="./"/>
+	<property name="downloadFilePath" value="./download/"/>
+</bean>
+
+<bean id="readconfigfileBean" class="io.zzzz.owo.ReadConfigFile">
+</bean>
+
+<bean id="tumblrclientBean" class="io.zzzz.owo.TumblrClient">
+</bean>
+
+<bean id="collectlinksBean" class="io.zzzz.owo.CollectLinks">
+</bean>
+
+<bean id="downloadfileBean" class="io.zzzz.owo.DownloadFile">
+</bean>
+
+
+</beans>
